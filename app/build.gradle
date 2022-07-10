@@ -7,6 +7,11 @@ apply plugin: 'org.greenrobot.greendao'
 def appVersionName = "test"
 def appVersionCode = 1234
 android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     packagingOptions {
         exclude 'META-INF/proguard/androidx-annotations.pro'
     }
@@ -85,6 +90,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.13'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.10'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
     annotationProcessor 'org.parceler:parceler:1.1.12'
 
