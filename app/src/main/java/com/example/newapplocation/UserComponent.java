@@ -9,6 +9,4 @@ import dagger.Subcomponent;
 public interface UserComponent {
 //    DashboardComponent plus(DashboardModule module);
 
-
-
 }

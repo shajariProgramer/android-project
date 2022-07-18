@@ -7,4 +7,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.BottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme_Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SwingDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/swing_up_left</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+
 </resources>

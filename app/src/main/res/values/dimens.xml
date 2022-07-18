@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_login_margin">40dp</dimen>
+    <dimen name="cardview_login_padding">20dp</dimen>
+    <dimen name="quick_access_fab_margin">32dp</dimen>
+    <dimen name="quick_access_fab_mini_margin_left">40dp</dimen>
+    <dimen name="quick_access_fab_mini_margin_right">16dp</dimen>
+    <dimen name="quick_access_fab_mini_margin_top">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="common_phrase_image_size">45dp</dimen>
+    <dimen name="progress_size">48dp</dimen>
+    <dimen name="material_drawer_item_primary_icon_padding_right">16dp</dimen>
+    <dimen name="material_drawer_account_header_height">158dp</dimen>
+    <dimen name="size_txt_start_end_car_requst_layout">12</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
